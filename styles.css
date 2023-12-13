@@ -51,8 +51,8 @@ body {
 
 .secondContainer {
     display: block;
-    justify-content: space-between;
-    margin: 0 100px 0 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .secondContainerInside {
@@ -73,7 +73,11 @@ body {
     border-color: blue;
     justify-content: space-between;
     border-radius: 10px;
+    margin: auto;
+}
 
+td {
+    text-align: center;
 }
 
 .signupButton {
@@ -110,7 +114,6 @@ body {
 }
 
 .signupFooterButton {
-    margin: 50px;
     background-color: #3882F6;
     border-style: solid;
     border-color:#E5E7EB;
