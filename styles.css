@@ -86,14 +86,9 @@ div.headerContainer p {
     margin: auto;
 }
 
-td {
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
 td p {
     width:40%;
+    margin: 0 auto;
 }
 
 .signupButton {
