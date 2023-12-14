@@ -110,6 +110,7 @@ td p {
 
 .thirdContainer {
     display: flex;
+    flex-direction: row;
     height: 200px;
     border-radius: 5px;
     align-items: center;
@@ -117,6 +118,8 @@ td p {
 }
 
 .thirdContainerInside {
+    display: flex;
+    flex-direction: row;
     border-radius: 5px;
     background-color: #3882F6;
     width: 70%;
