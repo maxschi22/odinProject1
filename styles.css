@@ -5,19 +5,18 @@ body {
 
 .headerContainer {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     grid-template-rows: 1fr;
     background-color: #1F2937;
 }
 
 .headerLogo {
     margin: auto auto auto 100px;
-    grid-column: span 4;
+    grid-column: span 5;
 }
 
 .headerItem {
     margin: 10px;
-    grid-row: span 1;
 }
 
 div.headerContainer p {
