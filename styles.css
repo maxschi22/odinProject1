@@ -4,17 +4,23 @@ body {
 }
 
 .headerContainer {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr;
+    background-color: #1F2937;
+}
+
+.headerLogo {
+    margin: auto auto auto 100px;
+    grid-column: span 4;
 }
 
 .headerItem {
-    flex: 1 1 auto;
-    background-color: #1F2937;
-    height: 50px;
+    margin: 10px;
+    grid-row: span 1;
 }
 
-.headerItem p {
+div.headerContainer p {
     color: #E5E7EB;
     font-size: 18px;
 }
