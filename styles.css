@@ -51,19 +51,25 @@ body {
 }
 
 .secondContainer {
-    display: block;
+    display: flex;
+    flex-direction: column;
     margin-left: auto;
     margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .secondContainerInside {
-    margin: 50px;
     display: flex;
-    flex-direction: row;
+    flex-direction: row;;
+    margin: 50px;
+    align-items: center;
     justify-content: space-between;
 }
 
 #sCTitle {
+    width:100%;
     text-align: center;
 }
 
@@ -79,6 +85,15 @@ body {
 
 td {
     text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+td p {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width:30%;
 }
 
 .signupButton {
@@ -102,6 +117,7 @@ td {
     display: flex;
     height: 200px;
     border-radius: 5px;
+    align-items: center;
     justify-content: center;
 }
 
