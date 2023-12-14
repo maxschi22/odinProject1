@@ -146,4 +146,6 @@ td p {
 
 .footer p {
     color: #E5E7EB;
+    top: 50%;
+    transform: translateY(100%);
 }
